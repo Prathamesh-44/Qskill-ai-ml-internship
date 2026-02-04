@@ -1,47 +1,92 @@
 # Iris Flower Classification
 
-## Objective
-The objective of this project is to classify iris flowers into three species:
+## 📌 Objective
+To classify iris flowers into three species — **Setosa**, **Versicolor**, and **Virginica** — based on sepal and petal measurements using machine learning techniques.
+
+---
+
+## 📂 Dataset
+The project uses the **Iris dataset**, which is a standard dataset available in the **scikit-learn library** and originally from the UCI Machine Learning Repository.
+
+### Features:
+- Sepal length
+- Sepal width
+- Petal length
+- Petal width
+
+### Target Classes:
 - Setosa
 - Versicolor
 - Virginica
 
-The classification is based on four features:
-- Sepal Length
-- Sepal Width
-- Petal Length
-- Petal Width
+---
 
-## Dataset
-- Iris Dataset (UCI Machine Learning Repository / scikit-learn)
-- Total samples: 150
-- Features: 4 numeric attributes
-- Classes: 3 flower species
+## 🛠️ Steps Performed
+1. Loaded the Iris dataset using scikit-learn.
+2. Visualized the dataset using scatter plots.
+3. Split the dataset into training and testing sets.
+4. Trained a K-Nearest Neighbors (KNN) classifier.
+5. Evaluated the model using accuracy score and confusion matrix.
 
-## Algorithm Used
+---
+
+## ⚙️ Algorithm Used
 - K-Nearest Neighbors (KNN)
 
-## Steps Performed
-1. Loaded the Iris dataset
-2. Explored and understood the data
-3. Visualized data using scatter plots
-4. Split data into training and testing sets
-5. Trained the KNN classification model
-6. Evaluated the model using accuracy and confusion matrix
+---
 
-## Evaluation Metrics
-- Accuracy Score
-- Confusion Matrix
+## 📊 Results
+The model achieved an accuracy of approximately **97% to 100%** on the test dataset.
 
-## Result
-The model achieved approximately **96% accuracy**, showing effective classification of iris flower species.
+---
 
-## Technologies Used
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
+## 🚀 How to Run
+1. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+# Iris Flower Classification
 
-## Conclusion
-This project demonstrates a basic machine learning classification problem using a clean and well-known dataset. The KNN algorithm performed efficiently and provided high accuracy, making it suitable for beginners learning supervised machine learning.
+## 📌 Objective
+To classify iris flowers into three species — **Setosa**, **Versicolor**, and **Virginica** — based on sepal and petal measurements using machine learning techniques.
+
+---
+
+## 📂 Dataset
+The project uses the **Iris dataset**, which is a standard dataset available in the **scikit-learn library** and originally from the UCI Machine Learning Repository.
+
+### Features:
+- Sepal length
+- Sepal width
+- Petal length
+- Petal width
+
+### Target Classes:
+- Setosa
+- Versicolor
+- Virginica
+
+---
+
+## 🛠️ Steps Performed
+1. Loaded the Iris dataset using scikit-learn.
+2. Visualized the dataset using scatter plots.
+3. Split the dataset into training and testing sets.
+4. Trained a K-Nearest Neighbors (KNN) classifier.
+5. Evaluated the model using accuracy score and confusion matrix.
+
+---
+
+## ⚙️ Algorithm Used
+- K-Nearest Neighbors (KNN)
+
+---
+
+## 📊 Results
+The model achieved an accuracy of approximately **97% to 100%** on the test dataset.
+
+---
+
+## 🚀 How to Run
+1. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
