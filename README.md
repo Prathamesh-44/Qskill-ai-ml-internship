@@ -58,7 +58,6 @@ Each project folder contains:
 - Requirements file
 
 Navigate into a project folder to run it individually.
-
 ---
 
 ## 👨‍💻 Author
